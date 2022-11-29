@@ -9,7 +9,7 @@ update your ubuntu first, then install panel
   
 * sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y;  
 * wget https://github.com/xtream-ui-org/xtream-ui-install/raw/master/install.py; 
-* sudo python install.py  
+* 
   
 If you want to install main server with admin panel, choose MAIN.  
 If you want to install load balance on additional servers, add a server to panel in manage servers page, then run script and proceed with LB option.  
@@ -41,3 +41,4 @@ edit pytools/balancer.py to use "auto lb installer" from this mirror. auto lb in
 ### note3,  
 developer made update releases open to public after r22c release, you can download them from https://xtream-ui.com.  
 i added an "UPDATE" part to install.py, it will ask link of update zip file.
+# gh-repo-clone-cline-pk-iptv-admin-panel-auto-installer-bash-script
